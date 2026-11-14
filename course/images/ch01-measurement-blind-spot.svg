@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-label="Two aligned 365-day rollout tracks contrasting an IT-milestone charter that stops measuring at Day 14 go-live and hits renewal blind against an outcome-driven charter that locks a Day-0 baseline and tracks Day-30 and Day-90 habits to verified renewal">
+  <defs>
+    <linearGradient id="roiBarGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#6a55e4"/>
+      <stop offset="1" stop-color="#bd35c2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Vertical time alignment guides across both tracks -->
+  <line x1="60" y1="62" x2="60" y2="386" stroke="#495f7a" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="126" y1="62" x2="126" y2="386" stroke="#495f7a" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="196" y1="62" x2="196" y2="386" stroke="#495f7a" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="274" y1="62" x2="274" y2="386" stroke="#495f7a" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="364" y1="62" x2="364" y2="386" stroke="#495f7a" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- TOP TRACK: IT-Milestone Rollout -->
+  <text x="32" y="42" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">IT-Milestone Charter</text>
+  <text x="408" y="42" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Stops at Go-Live</text>
+
+  <!-- Day 0: Missing baseline -->
+  <rect x="32" y="128" width="56" height="44" rx="4" fill="none" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="60" y="147" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">No</text>
+  <text x="60" y="162" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="10">baseline</text>
+
+  <!-- Day 14: Go-Live spike then disband -->
+  <rect x="96" y="88" width="60" height="84" rx="4" fill="#082445"/>
+  <text x="126" y="126" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Seats</text>
+  <text x="126" y="142" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">live</text>
+  <text x="126" y="78" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Victory lap</text>
+
+  <!-- Days 30 to 90+: Unmeasured habit blind spot -->
+  <rect x="164" y="114" width="148" height="58" rx="4" fill="#495f7a" fill-opacity="0.08" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="238" y="140" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Blind spot</text>
+  <text x="238" y="157" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11">Legacy habits persist</text>
+
+  <!-- Day 365: Renewal surprise -->
+  <rect x="320" y="98" width="88" height="74" rx="4" fill="none" stroke="#bd35c2" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="364" y="132" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">?</text>
+  <text x="364" y="154" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Renewal</text>
+
+  <line x1="28" y1="172" x2="412" y2="172" stroke="#495f7a" stroke-width="2"/>
+
+  <!-- Mid-frame divider -->
+  <line x1="28" y1="204" x2="412" y2="204" stroke="#495f7a" stroke-opacity="0.22" stroke-width="1"/>
+
+  <!-- BOTTOM TRACK: Outcome-Driven Rollout -->
+  <text x="32" y="232" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">Outcome-Driven Charter</text>
+  <text x="408" y="232" text-anchor="end" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">Defined on Day 1</text>
+
+  <!-- Day 0: Baseline locked -->
+  <rect x="32" y="340" width="56" height="46" rx="4" fill="#082445"/>
+  <text x="60" y="360" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Day-0</text>
+  <text x="60" y="374" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="10">baseline</text>
+
+  <!-- Day 14: Access + guardrails -->
+  <rect x="96" y="324" width="60" height="62" rx="4" fill="#495f7a"/>
+  <text x="126" y="352" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Seats +</text>
+  <text x="126" y="367" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="10">rules</text>
+
+  <!-- Day 30: Cohort habit -->
+  <rect x="164" y="298" width="64" height="88" rx="4" fill="#1e71d6"/>
+  <text x="196" y="340" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Habit</text>
+  <text x="196" y="356" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="10">pulse</text>
+
+  <!-- Day 90: Cycle + QA -->
+  <rect x="236" y="272" width="76" height="114" rx="4" fill="#6a55e4"/>
+  <text x="274" y="326" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">KPI + QA</text>
+  <text x="274" y="343" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="10">verified</text>
+
+  <!-- Day 365: Proven renewal -->
+  <rect x="320" y="248" width="88" height="138" rx="4" fill="url(#roiBarGrad)"/>
+  <text x="364" y="314" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Proven</text>
+  <text x="364" y="332" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">ROI</text>
+
+  <line x1="28" y1="386" x2="412" y2="386" stroke="#495f7a" stroke-width="2"/>
+
+  <!-- Shared timeline labels -->
+  <text x="60" y="410" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Day 0</text>
+  <text x="126" y="410" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Day 14</text>
+  <text x="196" y="410" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Day 30</text>
+  <text x="274" y="410" text-anchor="middle" fill="#6a55e4" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Day 90</text>
+  <text x="364" y="410" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">Day 365</text>
+</svg>

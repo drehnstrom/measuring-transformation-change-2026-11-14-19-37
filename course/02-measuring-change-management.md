@@ -126,15 +126,20 @@ Month-1 Vendor Snapshot (400 Licenses across Engineering and Operations):
 
 ---
 
+<!-- layout: 2-column -->
 # Reading Chat Assistant vs. Coding Agent Telemetry
 
-- Raw vendor telemetry misleads when leaders confuse high tool volume with workflow proficiency
-- **Enterprise Chat and Workspace AI (Claude, Gemini, Microsoft 365 Copilot):**
-  - *Misleading signal:* raw prompt count per user (25 rapid prompts often mean someone is fighting unhelpful outputs)
-  - *Stronger signal:* **active days per week** (3+ days/wk) and **in-workflow surface use** inside docs, sheets, or project workspaces
-- **Coding Agents (GitHub Copilot, Claude Code, IDE Agents):**
-  - *Misleading signal:* inline **acceptance rate** in isolation (accepting noisy code inflates acceptance while creating cleanup work)
-  - *Stronger signal:* **code survival rate** (accepted code still intact 14 to 30 days post-merge), test coverage, and PR review duration
+### Chat and Workspace AI
+- **Tools:** Claude, Gemini, Microsoft 365 Copilot
+- **Misleading signal:** raw prompt count per user (25 rapid prompts often mean someone is fighting unhelpful outputs)
+- **Stronger signal:** active days per week (3+ days/wk) and in-workflow surface use inside docs, sheets, or project workspaces
+
+### Coding Agents
+- **Tools:** GitHub Copilot, Claude Code, IDE agents
+- **Misleading signal:** inline acceptance rate in isolation (accepting noisy code inflates acceptance while creating cleanup work)
+- **Stronger signal:** code survival rate (accepted code still intact 14 to 30 days post-merge), test coverage, and PR review duration
+
+<!-- below-columns -->
 
 > [!NOTE]
 > High tool activity paired with flat workflow throughput is a diagnostic clue: people are experimenting, not integrating.
@@ -186,13 +191,12 @@ Month-1 Vendor Snapshot (400 Licenses across Engineering and Operations):
 
 # Measuring Productivity Beyond “Hours Saved”
 
-- Self-reported “I saved 3 hours this week” surveys rarely reconcile with actual department output
-  - Users recall fast first drafts vividly while forgetting 40 minutes spent debugging subtle agent errors
-  - Ten-minute time fragments evaporate into email and meetings unless leaders intentionally reallocate freed capacity
-- Anchor productivity measurement on three verifiable signals instead:
-  - **End-to-end cycle time:** elapsed calendar or active hours from request intake to verified completion
-  - **Cohort throughput:** completed proposals, resolved Tier-2 tickets, or shipped stories at constant headcount
-  - **Capacity reinvestment:** documented shift of freed hours into higher-value work (such as proactive customer calls or test automation)
+- Self-reported “3 hours saved” surveys rarely reconcile with output because scattered 10-minute fragments evaporate into email, chat, and debugging
+- **End-to-end cycle time:** track elapsed hours from request intake to verified completion
+- **Cohort throughput:** count completed proposals, resolved Tier-2 tickets, or shipped stories at constant headcount
+- **Capacity reinvestment:** document freed blocks shifted into backlog burn-down, test coverage, or proactive client work
+
+![Contrast between scattered ten-minute time fragments that evaporate into email and rework with zero extra output versus a consolidated cycle-time reduction reinvested into three completed backlog deliverables](images/ch02-time-fragment-evaporation.svg)
 
 ---
 

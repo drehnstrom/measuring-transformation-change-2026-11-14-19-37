@@ -151,11 +151,11 @@ Cohort C: Customer Operations (Workspace AI and Enterprise Chat)
 
 # Do Now: Diagnose Two Stalled Rollout Pods
 
-Read both Week-6 snapshots before we unpack the diagnostic framework.
-
-- **Pod Alpha (Recruiting, n = 40):** 95% passed the live interview-rubric lab and seeded-flaw check (L2), yet only 18% used AI on live requisitions this week (L3)
+- **Pod Alpha (Recruiting, n = 40):** 95% passed the live rubric lab and seeded-flaw check (L2), yet only 18% used AI on live requisitions this week (L3)
 - **Pod Beta (Engineering, n = 45):** 91% passed the coding-agent lab (L2) and 78% use the agent 4+ days/week (L3), yet median PR cycle time is 15% *slower* than baseline (L4)
-- Write down: Does *either* pod need to retake the training workshop - and what is the first operational barrier you would inspect in each pod?
+- **3-minute diagnosis:** Does *either* pod need to retake the training workshop - and what is the first operational barrier you would inspect in each pod?
+
+![Two Week-6 cohort diagnostic profiles across Level 2 Lab, Level 3 Habit, and Level 4 Cycle KPI showing Pod Alpha breaking between Level 2 at 95 percent and Level 3 at 18 percent while Pod Beta passes Level 2 at 91 percent and Level 3 at 78 percent before dropping 15 percent slower at Level 4](images/ch04-stalled-pods-diagnosis.svg)
 
 ---
 

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-label="Network topology contrast showing one central Learning and Development hub bottlenecked across distant teams at 16 percent habit versus embedded peer champions coaching pods of 18 peers to reach over 68 percent habit">
+  <!-- TOP HALF: Central L and D Solo (1 : 300 bottleneck) -->
+  <text x="28" y="34" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">Central L and D Solo (1 : 300)</text>
+  <text x="412" y="34" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">16% habit</text>
+
+  <!-- Faint dashed broadcast lines reaching only isolated early adopters -->
+  <line x1="88" y1="114" x2="188" y2="68" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="88" y1="118" x2="214" y2="118" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="88" y1="122" x2="188" y2="168" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Central hub -->
+  <circle cx="62" cy="118" r="28" fill="#082445"/>
+  <text x="62" y="115" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Central</text>
+  <text x="62" y="129" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">L and D</text>
+
+  <!-- Unreached domain cohorts (3 rows of 8 practitioner nodes = 24 nodes; 3 lit, 21 hollow) -->
+  <!-- Row 1: Eng -->
+  <circle cx="188" cy="68" r="7" fill="#1e71d6"/>
+  <circle cx="214" cy="68" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="240" cy="68" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="266" cy="68" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="292" cy="68" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="318" cy="68" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="344" cy="68" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="370" cy="68" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <text x="412" y="72" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Eng</text>
+
+  <!-- Row 2: HR -->
+  <circle cx="188" cy="118" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="214" cy="118" r="7" fill="#1e71d6"/>
+  <circle cx="240" cy="118" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="266" cy="118" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="292" cy="118" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="318" cy="118" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="344" cy="118" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="370" cy="118" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <text x="412" y="122" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">HR</text>
+
+  <!-- Row 3: Ops -->
+  <circle cx="188" cy="168" r="7" fill="#1e71d6"/>
+  <circle cx="214" cy="168" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="240" cy="168" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="266" cy="168" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="292" cy="168" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="318" cy="168" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="344" cy="168" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <circle cx="370" cy="168" r="7" fill="none" stroke="#495f7a" stroke-width="2"/>
+  <text x="412" y="172" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Ops</text>
+
+  <text x="279" y="196" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11">Static broadcast misses local repo and SOP friction</text>
+
+  <!-- Mid-frame divider -->
+  <line x1="28" y1="214" x2="412" y2="214" stroke="#495f7a" stroke-opacity="0.22" stroke-width="1"/>
+
+  <!-- BOTTOM HALF: Embedded Peer Champion Pods (1 : 18) -->
+  <text x="28" y="244" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">Peer Champion Pods (1 : 18)</text>
+  <text x="412" y="244" text-anchor="end" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">68%+ habit</text>
+
+  <!-- Solid trunk lines from L and D to 3 domain Champions -->
+  <line x1="88" y1="322" x2="168" y2="280" stroke="#1e71d6" stroke-width="2.5"/>
+  <line x1="90" y1="330" x2="168" y2="330" stroke="#1e71d6" stroke-width="2.5"/>
+  <line x1="88" y1="338" x2="168" y2="380" stroke="#1e71d6" stroke-width="2.5"/>
+
+  <!-- Central hub -->
+  <circle cx="62" cy="330" r="28" fill="#082445"/>
+  <text x="62" y="327" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Central</text>
+  <text x="62" y="341" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">L and D</text>
+
+  <!-- Pod 1 (Eng): Champion + 7 active peers -->
+  <rect x="158" y="262" width="222" height="36" rx="18" fill="#1e71d6" fill-opacity="0.1" stroke="#1e71d6" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="180" y1="280" x2="364" y2="280" stroke="#6a55e4" stroke-width="1.5"/>
+  <circle cx="180" cy="280" r="11" fill="#bd35c2"/>
+  <text x="180" y="284" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700">C</text>
+  <circle cx="212" cy="280" r="7" fill="#1e71d6"/>
+  <circle cx="237" cy="280" r="7" fill="#1e71d6"/>
+  <circle cx="262" cy="280" r="7" fill="#1e71d6"/>
+  <circle cx="287" cy="280" r="7" fill="#6a55e4"/>
+  <circle cx="312" cy="280" r="7" fill="#6a55e4"/>
+  <circle cx="337" cy="280" r="7" fill="#1e71d6"/>
+  <circle cx="362" cy="280" r="7" fill="#495f7a"/>
+  <text x="412" y="284" text-anchor="end" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Eng</text>
+
+  <!-- Pod 2 (HR): Champion + 7 active peers -->
+  <rect x="158" y="312" width="222" height="36" rx="18" fill="#1e71d6" fill-opacity="0.1" stroke="#1e71d6" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="180" y1="330" x2="364" y2="330" stroke="#6a55e4" stroke-width="1.5"/>
+  <circle cx="180" cy="330" r="11" fill="#bd35c2"/>
+  <text x="180" y="334" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700">C</text>
+  <circle cx="212" cy="330" r="7" fill="#1e71d6"/>
+  <circle cx="237" cy="330" r="7" fill="#6a55e4"/>
+  <circle cx="262" cy="330" r="7" fill="#1e71d6"/>
+  <circle cx="287" cy="330" r="7" fill="#1e71d6"/>
+  <circle cx="312" cy="330" r="7" fill="#6a55e4"/>
+  <circle cx="337" cy="330" r="7" fill="#495f7a"/>
+  <circle cx="362" cy="330" r="7" fill="#1e71d6"/>
+  <text x="412" y="334" text-anchor="end" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">HR</text>
+
+  <!-- Pod 3 (Ops): Champion + 7 active peers -->
+  <rect x="158" y="362" width="222" height="36" rx="18" fill="#1e71d6" fill-opacity="0.1" stroke="#1e71d6" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="180" y1="380" x2="364" y2="380" stroke="#6a55e4" stroke-width="1.5"/>
+  <circle cx="180" cy="380" r="11" fill="#bd35c2"/>
+  <text x="180" y="384" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700">C</text>
+  <circle cx="212" cy="380" r="7" fill="#1e71d6"/>
+  <circle cx="237" cy="380" r="7" fill="#1e71d6"/>
+  <circle cx="262" cy="380" r="7" fill="#6a55e4"/>
+  <circle cx="287" cy="380" r="7" fill="#1e71d6"/>
+  <circle cx="312" cy="380" r="7" fill="#6a55e4"/>
+  <circle cx="337" cy="380" r="7" fill="#1e71d6"/>
+  <circle cx="362" cy="380" r="7" fill="#495f7a"/>
+  <text x="412" y="384" text-anchor="end" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Ops</text>
+
+  <!-- Legend / protection note -->
+  <circle cx="102" cy="418" r="7" fill="#bd35c2"/>
+  <text x="115" y="422" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Champion (2-4h/wk protected + Week-4 clinics)</text>
+</svg>

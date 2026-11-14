@@ -76,13 +76,11 @@ Measuring Transformation Change
 # Why Transformation Measurement Breaks Early
 
 - Most rollouts fail in measurement because success was defined as an IT milestone, not a human behavior shift
-  - Project charters track budget, schedule, and seat deployment because those numbers are easy to count
-  - Business value only appears when people retire old habits and trust new workflows under deadline pressure
-- If you wait until contract renewal to ask what changed, baseline data and stakeholder momentum are already gone
-- Generative AI amplifies this blind spot because the software installs in minutes while the work redesign takes months
+- Project charters count budget, schedule, and seat deployment while ignoring whether teams retire legacy habits
+- Waiting until contract renewal to ask what changed forfeits Day-0 baselines and stakeholder momentum
+- **Day-1 rule:** you cannot measure transformation effectiveness at Day 90 if you only defined installation goals on Day 1
 
-> [!IMPORTANT]
-> You cannot measure transformation effectiveness at day 90 if you only defined technical installation goals on day 1.
+![Two aligned 365-day rollout tracks contrasting an IT-milestone charter that stops measuring at Day-14 go-live and hits renewal blind against an outcome-driven charter that locks a Day-0 baseline and tracks Day-30 and Day-90 habits to proven ROI](images/ch01-measurement-blind-spot.svg)
 
 ---
 
@@ -161,14 +159,20 @@ blockers first, flag any missing dates for human sign-off, then draft a 120-word
 
 ---
 
+<!-- layout: 2-column -->
 # Psychological and Workflow Friction Unique to AI
 
-- High psychological friction slows AI adoption even when licenses are free and accessible
-  - **Verification anxiety:** fear of shipping hallucinated facts, subtle code bugs, or insecure outputs
-  - **Competence threat:** top performers worry that delegating craft to an agent dilutes their expertise or role value
-  - **Policy ambiguity:** uncertainty over what customer data, source code, or internal documents are safe to share
-  - **The blank-page stall:** staring at an open chat window under a tight deadline takes more cognitive effort than using yesterday’s template
-- Effective change management removes policy ambiguity first and teaches verification habits alongside prompting
+### Trust and Identity Friction
+- **Verification anxiety:** fear of shipping hallucinated facts, subtle code bugs, or insecure outputs
+- **Competence threat:** top performers worry that delegating craft to an agent dilutes their expertise or role value
+- Pair prompting practice with domain verification checklists so experts stay in control
+
+### Policy and Cognitive Friction
+- **Policy ambiguity:** uncertainty over what customer data, source code, or internal documents are safe to share
+- **The blank-page stall:** facing an open chat window under a tight deadline feels slower than using yesterday’s template
+- Remove data ambiguity first and anchor early use to pre-built workflow playbooks
+
+<!-- below-columns -->
 
 > [!WARNING]
 > Mandating prompt counts without clear data guardrails and review standards drives shadow AI use or superficial compliance.

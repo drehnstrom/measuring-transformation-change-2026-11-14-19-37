@@ -273,18 +273,14 @@ credit to next month's invoice and will send our next status check within 4 hour
 
 ---
 
-<!-- layout: 2-column -->
 # Scaling Through Peer Champions, Not L and D Alone
 
-### Why Central L and D Cannot Scale Solo
-- Instructional designers cannot master every microservice repo, regional regulation, or clinical workflow across the business
-- Model capabilities and agent workflows evolve quarterly, making static e-learning modules obsolete within weeks
-- Skeptical practitioners trust a respected peer demonstrating real backlog wins far faster than a corporate slide deck
-
-### Designing an Effective Champion Network
+- Central L and D cannot master every microservice repo, regional regulation, or quarterly model shift solo
+- Practitioners trust a respected colleague demonstrating real backlog wins far faster than a static corporate slide deck
 - Recruit **1 peer champion per 15 to 20 employees** for domain credibility and coaching patience, not uncritical AI hype
-- Secure **2 to 4 protected hours per week** in writing with their manager so enablement is not unpaid overtime
-- Task champions with co-leading Week-4 clinics, maintaining verified team playbooks, and escalating tool friction to L and D
+- Protect **2 to 4 hours per week** in writing with managers so champions co-lead Week-4 clinics and maintain team playbooks
+
+![Network topology contrast showing one central Learning and Development hub bottlenecked across distant teams at 16 percent habit versus embedded peer champions coaching pods of 18 peers to reach over 68 percent habit](images/ch03-peer-champion-network.svg)
 
 ---
 

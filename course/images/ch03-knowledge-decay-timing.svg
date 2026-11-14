@@ -52,13 +52,13 @@
   <rect x="90" y="228" width="116" height="14" rx="3" fill="#082445"/>
   <text x="148" y="221" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Guardrails first</text>
 
-  <!-- Curve 2: Just-in-Time Role Lab + Wk 6 Clinic -->
-  <path d="M 206 235 L 206 122 C 242 126, 276 138, 308 136 C 338 112, 368 104, 396 106 L 396 86 C 455 88, 530 88, 612 88" fill="none" stroke="url(#jitGrad)" stroke-width="4"/>
-  <circle cx="206" cy="122" r="5" fill="#1e71d6"/>
-  <text x="206" y="109" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Live role lab</text>
+  <!-- Curve 2: Just-in-Time Role Lab (Wk 3 = 206) + Wk-6 Clinic (x = 380) -->
+  <path d="M 206 235 L 206 118 C 258 122, 322 132, 380 134 L 380 86 C 445 87, 530 88, 612 88" fill="none" stroke="url(#jitGrad)" stroke-width="4"/>
+  <circle cx="206" cy="118" r="5" fill="#1e71d6"/>
+  <text x="206" y="105" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Live role lab</text>
 
-  <circle cx="396" cy="86" r="5" fill="#6a55e4"/>
-  <text x="396" y="73" text-anchor="middle" fill="#6a55e4" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Wk-6 clinic</text>
+  <circle cx="380" cy="86" r="5" fill="#6a55e4"/>
+  <text x="380" y="73" text-anchor="middle" fill="#6a55e4" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Wk-6 clinic</text>
 
   <circle cx="612" cy="88" r="5.5" fill="#bd35c2"/>
   <text x="624" y="93" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Just-in-time (79%)</text>
