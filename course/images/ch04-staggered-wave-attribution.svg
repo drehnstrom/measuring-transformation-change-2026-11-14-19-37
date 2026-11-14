@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 292" role="img" aria-label="Clustered median handle-time bars across Day 0, Day 30, and Day 60 showing trained Wave 1 dropping from 48 minutes to 33 minutes at Day 30 while license-only Wave 2 stays at 45 minutes until receiving training at Day 31 and dropping to 34 minutes by Day 60">
+  <defs>
+    <linearGradient id="wave1Grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e71d6"/>
+      <stop offset="1" stop-color="#6a55e4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Compact Legend (top right) -->
+  <rect x="250" y="14" width="12" height="12" rx="2" fill="#1e71d6"/>
+  <text x="268" y="24" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Wave 1 (trained Day 1)</text>
+
+  <rect x="424" y="14" width="12" height="12" rx="2" fill="#495f7a"/>
+  <text x="442" y="24" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Wave 2 (license-only)</text>
+
+  <rect x="596" y="14" width="12" height="12" rx="2" fill="#bd35c2"/>
+  <text x="614" y="24" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Wave 2 (trained Day 31)</text>
+
+  <!-- Axes (Y: 0m=230, 30m=134, 60m=38; 3.2px per min) -->
+  <line x1="82" y1="38" x2="82" y2="230" stroke="#495f7a" stroke-width="2"/>
+  <line x1="82" y1="230" x2="758" y2="230" stroke="#495f7a" stroke-width="2"/>
+
+  <!-- Y-axis ticks and horizontal gridlines -->
+  <line x1="74" y1="38" x2="82" y2="38" stroke="#495f7a" stroke-width="2"/>
+  <text x="68" y="43" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">60m</text>
+
+  <line x1="82" y1="134" x2="758" y2="134" stroke="#495f7a" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="74" y1="134" x2="82" y2="134" stroke="#495f7a" stroke-width="2"/>
+  <text x="68" y="139" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">30m</text>
+
+  <text x="68" y="234" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">0m</text>
+
+  <!-- CLUSTER 1: Day 0 Baseline (48m vs 48m -> y=76, h=154) -->
+  <rect x="122" y="76" width="52" height="154" rx="4" fill="#1e71d6"/>
+  <text x="148" y="68" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">48m</text>
+
+  <rect x="182" y="76" width="52" height="154" rx="4" fill="#495f7a"/>
+  <text x="208" y="68" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">48m</text>
+
+  <text x="178" y="254" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Day 0</text>
+  <text x="178" y="272" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Equal baseline</text>
+
+  <!-- CLUSTER 2: Day 30 (Wave 1 = 33m [y=124, h=106]; Wave 2 = 45m [y=86, h=144]) -->
+  <!-- Attribution delta callout between y=86 (45m) and y=124 (33m) -->
+  <line x1="376" y1="86" x2="452" y2="86" stroke="#bd35c2" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="376" y1="124" x2="392" y2="124" stroke="#bd35c2" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="376" y1="86" x2="376" y2="124" stroke="#bd35c2" stroke-width="2.5"/>
+  <text x="366" y="102" text-anchor="end" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">-12m delta</text>
+  <text x="366" y="118" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">from enablement</text>
+
+  <rect x="392" y="124" width="52" height="106" rx="4" fill="url(#wave1Grad)"/>
+  <text x="418" y="116" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">33m</text>
+
+  <rect x="452" y="86" width="52" height="144" rx="4" fill="#495f7a"/>
+  <text x="478" y="78" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">45m</text>
+
+  <text x="448" y="254" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Day 30</text>
+  <text x="448" y="272" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Wave 1 trained vs. control</text>
+
+  <!-- CLUSTER 3: Day 60 (Wave 1 = 32m [y=128, h=102]; Wave 2 = 34m [y=121, h=109]) -->
+  <rect x="610" y="128" width="52" height="102" rx="4" fill="#1e71d6"/>
+  <text x="636" y="120" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">32m</text>
+
+  <rect x="670" y="121" width="52" height="109" rx="4" fill="#bd35c2"/>
+  <text x="696" y="113" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">34m</text>
+
+  <text x="666" y="254" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Day 60</text>
+  <text x="666" y="272" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Effect replicated in Wave 2</text>
+</svg>

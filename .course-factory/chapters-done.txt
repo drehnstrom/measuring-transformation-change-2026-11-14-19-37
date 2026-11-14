@@ -1,3 +1,4 @@
 course/01-defining-success.md
 course/02-measuring-change-management.md
 course/03-designing-training.md
+course/04-evaluating-training-impact.md

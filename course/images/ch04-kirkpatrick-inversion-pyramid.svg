@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 288" role="img" aria-label="Side-by-side four-tier effort comparison contrasting legacy evaluation with 60 percent effort on Level 1 smile sheets and 4 percent on Level 4 results against outcome-first evaluation with 50 percent on Level 3 behavior and 30 percent on Level 4 results">
+  <defs>
+    <linearGradient id="l3EffortGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e71d6"/>
+      <stop offset="1" stop-color="#6a55e4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Subtle horizontal alignment guides split cleanly around center labels -->
+  <line x1="45" y1="58" x2="344" y2="58" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="456" y1="58" x2="755" y2="58" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <line x1="45" y1="108" x2="344" y2="108" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="456" y1="108" x2="755" y2="108" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <line x1="45" y1="158" x2="344" y2="158" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="456" y1="158" x2="755" y2="158" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <line x1="45" y1="208" x2="344" y2="208" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="456" y1="208" x2="755" y2="208" stroke="#495f7a" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- LEFT STACK: Legacy Evaluation Effort (center x = 185, 1% = 4.8px) -->
+  <polygon points="175,78 195,78 211,88 159,88" fill="#495f7a" fill-opacity="0.16"/>
+  <polygon points="159,128 211,128 245,138 125,138" fill="#495f7a" fill-opacity="0.16"/>
+  <polygon points="125,178 245,178 329,188 41,188" fill="#082445" fill-opacity="0.14"/>
+
+  <!-- L4: 4% (w = 20) -->
+  <rect x="175" y="38" width="20" height="40" rx="4" fill="#495f7a"/>
+  <text x="205" y="63" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">4%</text>
+
+  <!-- L3: 11% (w = 52) -->
+  <rect x="159" y="88" width="52" height="40" rx="4" fill="#495f7a"/>
+  <text x="185" y="113" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">11%</text>
+
+  <!-- L2: 25% (w = 120) -->
+  <rect x="125" y="138" width="120" height="40" rx="4" fill="#082445"/>
+  <text x="185" y="163" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">25% quizzes</text>
+
+  <!-- L1: 60% (w = 288) -->
+  <rect x="41" y="188" width="288" height="40" rx="4" fill="#082445"/>
+  <text x="185" y="213" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">60% smile sheets and attendance</text>
+
+  <text x="185" y="254" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Legacy Evaluation Effort</text>
+  <text x="185" y="272" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">85% spent inside the classroom</text>
+
+  <!-- CENTER TIER LABELS (x = 400) -->
+  <text x="400" y="63" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">L4: Results</text>
+  <text x="400" y="113" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">L3: Behavior</text>
+  <text x="400" y="163" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">L2: Learning</text>
+  <text x="400" y="213" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">L1: Reaction</text>
+
+  <!-- RIGHT STACK: Outcome-First Evaluation Effort (center x = 615, 1% = 4.8px) -->
+  <polygon points="543,78 687,78 735,88 495,88" fill="#bd35c2" fill-opacity="0.18"/>
+  <polygon points="495,128 735,128 651,138 579,138" fill="#6a55e4" fill-opacity="0.18"/>
+  <polygon points="579,178 651,178 627,188 603,188" fill="#082445" fill-opacity="0.14"/>
+
+  <!-- L4: 30% (w = 144) -->
+  <rect x="543" y="38" width="144" height="40" rx="4" fill="#bd35c2"/>
+  <text x="615" y="63" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">30% KPI shift</text>
+
+  <!-- L3: 50% (w = 240) -->
+  <rect x="495" y="88" width="240" height="40" rx="4" fill="url(#l3EffortGrad)"/>
+  <text x="615" y="113" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">50% job habit and QA</text>
+
+  <!-- L2: 15% (w = 72) -->
+  <rect x="579" y="138" width="72" height="40" rx="4" fill="#082445"/>
+  <text x="615" y="163" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">15% lab</text>
+
+  <!-- L1: 5% (w = 24) -->
+  <rect x="603" y="188" width="24" height="40" rx="4" fill="#495f7a"/>
+  <text x="637" y="213" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">5%</text>
+
+  <text x="615" y="254" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Outcome-First Effort</text>
+  <text x="615" y="272" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">80% spent on workflow transfer</text>
+</svg>
