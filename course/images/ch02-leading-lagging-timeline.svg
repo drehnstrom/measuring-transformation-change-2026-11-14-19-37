@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 310" role="img" aria-label="Readiness rises in weeks one to three, leading workflow habits climb in weeks two to eight inside an early steer window, and lagging KPI impact follows five to six weeks later">
+  <defs>
+    <linearGradient id="lagGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6a55e4"/>
+      <stop offset="1" stop-color="#bd35c2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Early steer / course-correction window (Weeks 3 to 6) -->
+  <rect x="170" y="42" width="120" height="213" fill="#1e71d6" fill-opacity="0.09"/>
+  <line x1="170" y1="42" x2="170" y2="255" stroke="#1e71d6" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="290" y1="42" x2="290" y2="255" stroke="#1e71d6" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="230" y="30" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Early steer window</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="255" x2="700" y2="255" stroke="#495f7a" stroke-width="2"/>
+  <line x1="80" y1="42" x2="80" y2="255" stroke="#495f7a" stroke-width="2"/>
+
+  <!-- Y-axis ticks -->
+  <line x1="72" y1="55" x2="80" y2="55" stroke="#495f7a" stroke-width="2"/>
+  <text x="64" y="60" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">100%</text>
+
+  <line x1="72" y1="155" x2="80" y2="155" stroke="#495f7a" stroke-width="2"/>
+  <text x="64" y="160" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">50%</text>
+
+  <text x="64" y="259" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">0%</text>
+
+  <!-- X-axis week ticks -->
+  <line x1="90" y1="255" x2="90" y2="263" stroke="#495f7a" stroke-width="2"/>
+  <text x="90" y="283" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 1</text>
+
+  <line x1="210" y1="255" x2="210" y2="263" stroke="#495f7a" stroke-width="2"/>
+  <text x="210" y="283" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 4</text>
+
+  <line x1="370" y1="255" x2="370" y2="263" stroke="#495f7a" stroke-width="2"/>
+  <text x="370" y="283" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 8</text>
+
+  <line x1="530" y1="255" x2="530" y2="263" stroke="#495f7a" stroke-width="2"/>
+  <text x="530" y="283" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 12</text>
+
+  <line x1="690" y1="255" x2="690" y2="263" stroke="#495f7a" stroke-width="2"/>
+  <text x="690" y="283" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 16</text>
+
+  <!-- Curve 1: Readiness (Guardrails and workflow setup) -->
+  <path d="M 90 220 C 120 140, 145 92, 185 80 C 240 68, 420 66, 690 66" fill="none" stroke="#082445" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="698" y="70" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Readiness</text>
+
+  <!-- Curve 2: Leading Workflow Habit -->
+  <path d="M 90 245 C 155 232, 215 182, 290 136 C 375 98, 500 90, 690 88" fill="none" stroke="#1e71d6" stroke-width="3.5"/>
+  <circle cx="264" cy="155" r="4.5" fill="#1e71d6"/>
+  <text x="698" y="93" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Leading habit</text>
+
+  <!-- Curve 3: Lagging KPI Movement -->
+  <path d="M 90 250 C 180 250, 255 247, 320 232 C 395 210, 465 155, 555 124 C 615 114, 655 112, 690 112" fill="none" stroke="url(#lagGrad)" stroke-width="4.5"/>
+  <circle cx="472" cy="155" r="4.5" fill="#6a55e4"/>
+  <circle cx="690" cy="112" r="5.5" fill="#bd35c2"/>
+  <text x="698" y="117" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Lagging KPI</text>
+
+  <!-- Signal lag bridge at 50% shift -->
+  <line x1="272" y1="155" x2="464" y2="155" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="368" y="146" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">5 to 6 wk KPI lag</text>
+</svg>
