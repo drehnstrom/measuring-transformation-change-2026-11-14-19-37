@@ -149,7 +149,7 @@ Cohort C: Customer Operations (Workspace AI and Enterprise Chat)
 
 ---
 
-# Do Now: Diagnose Two Stalled Rollout Pods
+# Do-Now: Diagnose Two Stalled Rollout Pods
 
 - **Pod Alpha (Recruiting, n = 40):** 95% passed the live rubric lab and seeded-flaw check (L2), yet only 18% used AI on live requisitions this week (L3)
 - **Pod Beta (Engineering, n = 45):** 91% passed the coding-agent lab (L2) and 78% use the agent 4+ days/week (L3), yet median PR cycle time is 15% *slower* than baseline (L4)
@@ -466,7 +466,7 @@ At Day 45 of a multi-team AI rollout, three cohorts are above 68% weekly workflo
 ### Discuss
 - Why does averaging away a stalled cohort backfire at the Day-90 renewal review?
 - How do you frame a red cohort on a one-page executive readout so sponsors mobilize to remove the blocker rather than blaming learners or L and D?
-- What quick Level-3 check would you run with the Legal Ops lead before Friday’s meeting?
+- What quick Level 3 check would you run with the Legal Ops lead before Friday’s meeting?
 
 ---
 

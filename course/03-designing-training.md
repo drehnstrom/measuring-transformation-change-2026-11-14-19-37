@@ -74,7 +74,7 @@ Measuring Transformation Change
 
 ### 3. Verified Live Access
 - Every participant confirms working access to Copilot, Claude, Gemini, or their IDE agent 48 hours before class.
-- Watching a neighbor type because an access ticket is still pending kills momentum on day one.
+- Watching a neighbor type because an access ticket is still pending kills momentum on Day 1.
 
 ### 4. Manager-Protected Practice
 - Frontline managers explicitly reserve two hours in the following sprint for the team to refactor one recurring task.
@@ -244,7 +244,7 @@ credit to next month's invoice and will send our next status check within 4 hour
 | :--- | :--- | :--- | :--- |
 | **Software Engineers** | Coding agents and IDE chat | Legacy unit-test generation, bounded refactoring, PR prep | Repo instructions (`CLAUDE.md` or `.github/copilot-instructions.md`) and diff checklist |
 | **HR and Talent** | Enterprise chat and Workspace AI | Structured interview rubrics, job architecture, policy FAQs | Bias, legal compliance, and compensation-band sign-off |
-| **Customer Operations** | Workspace AI and Enterprise chat | Escalation thread synthesis, root-cause replies, KB drafts | Account-tier, SLA, and technical accuracy audit |
+| **Customer Operations** | Workspace AI and enterprise chat | Escalation thread synthesis, root-cause replies, KB drafts | Account-tier, SLA, and technical accuracy audit |
 | **People Managers** | Cross-modality review and coaching | Capacity reallocation, output review norms, 1-on-1 coaching | Team AI working agreement and quality guardrail rubric |
 
 > [!TIP]

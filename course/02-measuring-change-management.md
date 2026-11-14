@@ -109,7 +109,7 @@ Measuring Transformation Change
 
 ---
 
-# Do Now: Audit a Month-One AI Dashboard
+# Do-Now: Audit a Month-One AI Dashboard
 
 Try this three-minute diagnosis before we unpack telemetry traps.
 
@@ -336,7 +336,7 @@ Day60Targets:    34m median handle time | >=90% QA pass | <=12% reopen rate
 Select one rollout for your table group to govern over the next 90 days (or use an active rollout from a participant’s organization):
 - **Option A (Engineering):** Rolling out coding agents (GitHub Copilot or Claude Code) to 120 developers maintaining core product services
 - **Option B (HR and Talent):** Rolling out enterprise assistants (Claude, Gemini, or Copilot) to 80 recruiters and HR business partners
-- **Option C (Customer Operations):** Rolling out workspace AI to 150 Tier-2 support and account onboarding specialists
+- **Option C (Customer Operations):** Rolling out Workspace AI to 150 Tier-2 support and account onboarding specialists
 
 ### Group Deliverable
 - Complete the **5-Slot Change Measurement Scorecard** for Day 30, Day 60, and Day 90 reviews

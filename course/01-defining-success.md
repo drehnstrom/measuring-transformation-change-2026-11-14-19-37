@@ -233,13 +233,13 @@ blockers first, flag any missing dates for human sign-off, then draft a 120-word
 - Bought 500 coding agent and enterprise chat seats across engineering and operations
 - Sent one launch announcement with vendor quick-start links and an optional webinar
 - Declared victory at Day 30 with 88% license activation
-- **Day 90 reality:** 19% weekly active users, rising PR review backlogs, and finance questioning renewal
+- **Day-90 reality:** 19% weekly active users, rising PR review backlogs, and finance questioning renewal
 
 ### Rollout B: Workflow-Led Change
 - Rolled out 500 seats in role cohorts tied to three high-friction workflows per team
 - Updated PR review checklists, data-handling rules, and manager coaching cadences
 - Tracked cohort retention, workflow completion time, and defect rates from Day 1
-- **Day 90 reality:** 68% weekly habitual users and a 22% reduction in routine ticket and PR cycle time
+- **Day-90 reality:** 68% weekly habitual users and a 22% reduction in routine ticket and PR cycle time
 
 ---
 
