@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 265" role="img" aria-label="Sixty-minute session comparison contrasting a feature demo with 50 minutes of passive watching and zero team playbooks against a workflow lab with 35 minutes of live building and 15 minutes of peer verification">
+  <defs>
+    <linearGradient id="labBuildGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e71d6"/>
+      <stop offset="1" stop-color="#6a55e4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Row 1: 60-Min Feature Demo (50m passive + 10m Q and A) -->
+  <text x="162" y="65" text-anchor="end" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Feature Demo</text>
+  <text x="162" y="82" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11">Passive watching</text>
+
+  <rect x="175" y="46" width="398" height="46" rx="4" fill="#495f7a"/>
+  <text x="374" y="74" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">50m vendor slides and toy prompts</text>
+
+  <rect x="575" y="46" width="80" height="46" rx="4" fill="#082445"/>
+  <text x="615" y="74" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">10m Q and A</text>
+
+  <rect x="668" y="48" width="118" height="42" rx="4" fill="none" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="727" y="74" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">0 playbooks</text>
+
+  <!-- Row 2: 60-Min Workflow Lab (10m setup + 35m build + 15m verify) -->
+  <text x="162" y="151" text-anchor="end" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Workflow Lab</text>
+  <text x="162" y="168" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11">Hands-on cohort</text>
+
+  <rect x="175" y="132" width="78" height="46" rx="4" fill="#082445"/>
+  <text x="214" y="160" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">10m frame</text>
+
+  <rect x="255" y="132" width="278" height="46" rx="4" fill="url(#labBuildGrad)"/>
+  <text x="394" y="160" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">35m live build on real task</text>
+
+  <rect x="535" y="132" width="120" height="46" rx="4" fill="#bd35c2"/>
+  <text x="595" y="160" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">15m peer verify</text>
+
+  <rect x="668" y="134" width="118" height="42" rx="4" fill="#082445" stroke="#bd35c2" stroke-width="2"/>
+  <text x="727" y="160" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">1 playbook</text>
+
+  <!-- 60-Minute Bottom Axis (8px per minute: 0m=175, 15m=295, 30m=415, 45m=535, 60m=655) -->
+  <line x1="175" y1="212" x2="655" y2="212" stroke="#495f7a" stroke-width="2"/>
+
+  <line x1="175" y1="212" x2="175" y2="220" stroke="#495f7a" stroke-width="2"/>
+  <text x="175" y="240" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">0 min</text>
+
+  <line x1="295" y1="212" x2="295" y2="220" stroke="#495f7a" stroke-width="2"/>
+  <text x="295" y="240" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">15 min</text>
+
+  <line x1="415" y1="212" x2="415" y2="220" stroke="#495f7a" stroke-width="2"/>
+  <text x="415" y="240" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">30 min</text>
+
+  <line x1="535" y1="212" x2="535" y2="220" stroke="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">45 min</text>
+
+  <line x1="655" y1="212" x2="655" y2="220" stroke="#495f7a" stroke-width="2"/>
+  <text x="655" y="240" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">60 min</text>
+</svg>

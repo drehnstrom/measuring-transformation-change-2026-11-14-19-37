@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-label="Ten-week skill curve comparing a premature Week-1 mass webinar that decays to 18 percent before Week-5 tool access against a Week-3 just-in-time role lab reinforced at Week 6 to reach 79 percent applied habit">
+  <defs>
+    <linearGradient id="jitGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e71d6"/>
+      <stop offset="0.55" stop-color="#6a55e4"/>
+      <stop offset="1" stop-color="#bd35c2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Axes -->
+  <line x1="76" y1="246" x2="626" y2="246" stroke="#495f7a" stroke-width="2"/>
+  <line x1="76" y1="40" x2="76" y2="246" stroke="#495f7a" stroke-width="2"/>
+
+  <!-- Y-axis ticks (100% = y:46, 50% = y:146, 0% = y:246) -->
+  <line x1="68" y1="46" x2="76" y2="46" stroke="#495f7a" stroke-width="2"/>
+  <text x="62" y="51" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">100%</text>
+
+  <line x1="68" y1="146" x2="76" y2="146" stroke="#495f7a" stroke-width="2"/>
+  <text x="62" y="151" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">50%</text>
+
+  <text x="62" y="250" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">0%</text>
+
+  <!-- X-axis week ticks (58px per week: Wk1=90, Wk3=206, Wk5=322, Wk7=438, Wk10=612) -->
+  <line x1="90" y1="246" x2="90" y2="254" stroke="#495f7a" stroke-width="2"/>
+  <text x="90" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 1</text>
+
+  <line x1="206" y1="246" x2="206" y2="254" stroke="#495f7a" stroke-width="2"/>
+  <text x="206" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 3</text>
+
+  <line x1="322" y1="246" x2="322" y2="254" stroke="#495f7a" stroke-width="2"/>
+  <text x="322" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 5</text>
+
+  <line x1="438" y1="246" x2="438" y2="254" stroke="#495f7a" stroke-width="2"/>
+  <text x="438" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 7</text>
+
+  <line x1="612" y1="246" x2="612" y2="254" stroke="#495f7a" stroke-width="2"/>
+  <text x="612" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 10</text>
+
+  <!-- Curve 1: Premature Mass Webinar (decays while waiting for Wk 5 seats/policy) -->
+  <path d="M 90 82 C 128 158, 178 194, 240 205 C 278 209, 302 210, 322 210 L 612 214" fill="none" stroke="#495f7a" stroke-width="3" stroke-dasharray="7 5"/>
+  <circle cx="90" cy="82" r="4.5" fill="#495f7a"/>
+  <text x="102" y="76" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Mass webinar</text>
+
+  <!-- Delayed access marker at Week 5 -->
+  <line x1="322" y1="176" x2="322" y2="246" stroke="#495f7a" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <circle cx="322" cy="210" r="4.5" fill="#495f7a"/>
+  <text x="322" y="170" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Delayed seats (18%)</text>
+
+  <text x="624" y="218" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Early webinar (16%)</text>
+
+  <!-- Preconditions bar (Weeks 1 to 3) -->
+  <rect x="90" y="228" width="116" height="14" rx="3" fill="#082445"/>
+  <text x="148" y="221" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Guardrails first</text>
+
+  <!-- Curve 2: Just-in-Time Role Lab + Wk 6 Clinic -->
+  <path d="M 206 235 L 206 122 C 242 126, 276 138, 308 136 C 338 112, 368 104, 396 106 L 396 86 C 455 88, 530 88, 612 88" fill="none" stroke="url(#jitGrad)" stroke-width="4"/>
+  <circle cx="206" cy="122" r="5" fill="#1e71d6"/>
+  <text x="206" y="109" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Live role lab</text>
+
+  <circle cx="396" cy="86" r="5" fill="#6a55e4"/>
+  <text x="396" y="73" text-anchor="middle" fill="#6a55e4" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Wk-6 clinic</text>
+
+  <circle cx="612" cy="88" r="5.5" fill="#bd35c2"/>
+  <text x="624" y="93" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Just-in-time (79%)</text>
+</svg>
