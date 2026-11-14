@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="One hundred provisioned seats drop steeply on a novelty curve after week two, while sustained workflow adoption grows steadily across twelve weeks">
+  <defs>
+    <linearGradient id="habitCurve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e71d6"/>
+      <stop offset="0.55" stop-color="#6a55e4"/>
+      <stop offset="1" stop-color="#bd35c2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Axes -->
+  <line x1="80" y1="260" x2="730" y2="260" stroke="#495f7a" stroke-width="2"/>
+  <line x1="80" y1="40" x2="80" y2="260" stroke="#495f7a" stroke-width="2"/>
+
+  <!-- Y-axis ticks and labels -->
+  <line x1="72" y1="60" x2="80" y2="60" stroke="#495f7a" stroke-width="2"/>
+  <text x="64" y="65" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">100%</text>
+
+  <line x1="72" y1="160" x2="80" y2="160" stroke="#495f7a" stroke-width="2"/>
+  <text x="64" y="165" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">50%</text>
+
+  <text x="64" y="264" text-anchor="end" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">0%</text>
+
+  <!-- X-axis week ticks -->
+  <line x1="170" y1="260" x2="170" y2="268" stroke="#495f7a" stroke-width="2"/>
+  <text x="170" y="288" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 1</text>
+
+  <line x1="290" y1="260" x2="290" y2="268" stroke="#495f7a" stroke-width="2"/>
+  <text x="290" y="288" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 3</text>
+
+  <line x1="470" y1="260" x2="470" y2="268" stroke="#495f7a" stroke-width="2"/>
+  <text x="470" y="288" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 6</text>
+
+  <line x1="680" y1="260" x2="680" y2="268" stroke="#495f7a" stroke-width="2"/>
+  <text x="680" y="288" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Wk 12</text>
+
+  <!-- Flat ceiling: Seats Provisioned (100%) -->
+  <line x1="80" y1="60" x2="680" y2="60" stroke="#082445" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="688" y="64" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Provisioned</text>
+
+  <!-- Novelty Spike and Trough (Active without workflow design) -->
+  <path d="M 80 230 C 120 120, 150 82, 185 82 C 235 82, 265 198, 340 212 C 450 225, 560 228, 680 228" fill="none" stroke="#495f7a" stroke-width="3"/>
+  <circle cx="185" cy="82" r="5" fill="#082445"/>
+  <text x="195" y="76" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="12">Launch spike</text>
+  <text x="688" y="232" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Unstructured trials</text>
+
+  <!-- Sustained Behavioral Adoption (Workflow integrated) -->
+  <path d="M 80 245 C 190 235, 290 190, 420 140 C 520 105, 600 94, 680 90" fill="none" stroke="url(#habitCurve)" stroke-width="4.5"/>
+  <circle cx="680" cy="90" r="6" fill="#bd35c2"/>
+  <text x="688" y="95" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Workflow habit</text>
+
+  <!-- Utilization Gap indicator at Week 12 -->
+  <line x1="650" y1="64" x2="650" y2="224" stroke="#1e71d6" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="642" y="150" text-anchor="end" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="12">Shelfware gap</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-label="One hundred assigned seats narrow step by step through activation, occasional prompts, weekly workflow habits, and verified business impact">
+  <defs>
+    <linearGradient id="impactFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e71d6"/>
+      <stop offset="0.5" stop-color="#6a55e4"/>
+      <stop offset="1" stop-color="#bd35c2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stage 1: Provisioned (100 seats) -->
+  <rect x="40" y="30" width="120" height="200" rx="4" fill="#082445"/>
+  <text x="100" y="135" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700">100%</text>
+  <text x="100" y="256" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Provisioned</text>
+  <text x="100" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Seats paid</text>
+
+  <!-- Connector 1-2 -->
+  <polygon points="160,30 190,46 190,214 160,230" fill="#495f7a" fill-opacity="0.18"/>
+
+  <!-- Stage 2: Activated (84%) -->
+  <rect x="190" y="46" width="120" height="168" rx="4" fill="#495f7a"/>
+  <text x="250" y="135" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700">84%</text>
+  <text x="250" y="256" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Activated</text>
+  <text x="250" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Logged in once</text>
+
+  <!-- Connector 2-3 -->
+  <polygon points="310,46 340,86 340,174 310,214" fill="#495f7a" fill-opacity="0.18"/>
+
+  <!-- Stage 3: Experimenting (44%) -->
+  <rect x="340" y="86" width="120" height="88" rx="4" fill="#1e71d6"/>
+  <text x="400" y="136" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">44%</text>
+  <text x="400" y="256" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Ad-Hoc Use</text>
+  <text x="400" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Occasional prompts</text>
+
+  <!-- Connector 3-4 -->
+  <polygon points="460,86 490,104 490,156 460,174" fill="#1e71d6" fill-opacity="0.18"/>
+
+  <!-- Stage 4: Workflow Habit (26%) -->
+  <rect x="490" y="104" width="120" height="52" rx="4" fill="#6a55e4"/>
+  <text x="550" y="136" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700">26%</text>
+  <text x="550" y="256" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Habitual</text>
+  <text x="550" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">3+ core tasks / wk</text>
+
+  <!-- Connector 4-5 -->
+  <polygon points="610,104 640,112 640,148 610,156" fill="#bd35c2" fill-opacity="0.22"/>
+
+  <!-- Stage 5: Verified Value (18%) -->
+  <rect x="640" y="112" width="120" height="36" rx="4" fill="url(#impactFill)"/>
+  <text x="700" y="135" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700">18%</text>
+  <text x="700" y="256" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Verified Value</text>
+  <text x="700" y="274" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">KPI shift proven</text>
+</svg>
