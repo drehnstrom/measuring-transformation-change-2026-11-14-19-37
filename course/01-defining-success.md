@@ -139,6 +139,28 @@ Measuring Transformation Change
 
 ---
 
+# Demo: Watching Discretionary AI Stall in Real Time
+
+- Open an enterprise assistant (Claude, Gemini, or Copilot) on a delayed customer onboarding escalation and compare two live runs:
+
+```text
+Run 1 - Untrained Day-2 Habit:
+"Write a reply to an enterprise client angry that onboarding is two weeks late."
+-> Polished generic apology; invents timeline promises; misses contract SLA rules.
+
+Run 2 - Workflow-Scoped Delegation:
+"Using the 4 sanitized ticket notes and Tier-1 SLA rules below, list unresolved
+blockers first, flag any missing dates for human sign-off, then draft a 120-word update."
+-> Surfaces an unconfirmed cutover date before drafting; aligns tone to SLA policy.
+```
+
+- Ask the room after Run 1: *Would you send that draft, or spend 15 minutes rewriting it and decide manual work is faster?*
+
+> [!NOTE]
+> Across functions, AI shifts effort from typing to **review gates** - whether a pull-request (PR) code diff in engineering, a contract redline in legal, or a QA audit in support.
+
+---
+
 # Psychological and Workflow Friction Unique to AI
 
 - High psychological friction slows AI adoption even when licenses are free and accessible
@@ -256,7 +278,7 @@ Measuring Transformation Change
 ```text
 Within [Timeframe], [Target Role] will integrate [AI Capability]
 into [Specific Workflow], shifting [Behavioral Indicator] from [Baseline] to [Target]
- in order to improve [Business KPI], while maintaining or improving [Quality Guardrail].
+in order to improve [Business KPI], while maintaining or improving [Quality Guardrail].
 ```
 
 - **Weak example:** “Roll out Claude and Copilot to Customer Operations in Q2 with 90% seat activation and high satisfaction.”
@@ -316,7 +338,7 @@ Your CIO just approved 1,000 Generative AI and coding agent licenses across Engi
 
 ### Small-Group Tasks
 - Explain in two plain-language sentences why hitting that 30-day target could still result in a failed rollout at Day 90
-- Pick one department (Engineering, HR, or Customer Operations) and draft one outcome-driven success statement using the four-layer chain
+- Choose a workflow **not** already modeled in our earlier table - such as an active rollout at a participant’s organization, incident postmortems, employee-relations case prep, or client onboarding handoffs - and draft one outcome-driven success statement
 - Name one quality or risk guardrail you will insist on tracking alongside speed
 
 ---

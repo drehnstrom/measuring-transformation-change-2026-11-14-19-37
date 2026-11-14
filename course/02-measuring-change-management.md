@@ -109,6 +109,23 @@ Measuring Transformation Change
 
 ---
 
+# Do Now: Audit a Month-One AI Dashboard
+
+Try this three-minute diagnosis before we unpack telemetry traps.
+
+```text
+Month-1 Vendor Snapshot (400 Licenses across Engineering and Operations):
+- Activated seats (logged in >=1 time):       91%
+- Avg chat prompts per active user:           28 prompts / day
+- Coding agent inline suggestion acceptance:  44%
+- Net ticket and PR cycle time vs. baseline:  4% slower than prior quarter
+```
+
+- The vendor rep calls Month 1 a breakout win; your COO asks why delivery actually slowed down
+- Write down one **healthy explanation** and one **troubled workflow explanation** for `28 prompts / day` and `44% inline acceptance`
+
+---
+
 # Reading Chat Assistant vs. Coding Agent Telemetry
 
 - Raw vendor telemetry misleads when leaders confuse high tool volume with workflow proficiency
@@ -211,6 +228,21 @@ Measuring Transformation Change
 
 ---
 
+<!-- layout: 2-column -->
+# Example: A Plain-Language Measurement Charter
+
+### What We Publish to Every Cohort
+- **Signals collected:** weekly active habit days, workflow cycle-time medians, and anonymized QA or PR pass rates
+- **Aggregation floor:** reported strictly in cohorts of **10+ employees** - never by individual name or stack rank
+- **Decisions informed:** spotting broken templates, policy ambiguity, and where to focus Week-4 coaching clinics
+
+### Lines Leadership Will Never Cross
+- Never inspect individual prompt transcripts outside a formal, documented security incident protocol
+- Never tie raw prompt totals, token counts, or AI-code ratios to performance reviews, bonuses, or headcount cuts
+- Co-sign this one-page charter with HR, Legal, and employee representatives **before** Day-1 telemetry goes live
+
+---
+
 <!-- layout: navigation -->
 # Chapter 2
 
@@ -297,14 +329,32 @@ Day60Targets:    34m median handle time | >=90% QA pass | <=12% reopen rate
 # Group Activity: Building a Change Measurement Scorecard
 
 ### Scenario Options (15 Minutes)
-Select one rollout for your table group to govern over the next 90 days:
+Select one rollout for your table group to govern over the next 90 days (or use an active rollout from a participant’s organization):
 - **Option A (Engineering):** Rolling out coding agents (GitHub Copilot or Claude Code) to 120 developers maintaining core product services
 - **Option B (HR and Talent):** Rolling out enterprise assistants (Claude, Gemini, or Copilot) to 80 recruiters and HR business partners
 - **Option C (Customer Operations):** Rolling out workspace AI to 150 Tier-2 support and account onboarding specialists
 
 ### Group Deliverable
-- Complete the **5-Slot Change Measurement Scorecard** on the next slide for Day 30, Day 60, and Day 90 reviews
+- Complete the **5-Slot Change Measurement Scorecard** for Day 30, Day 60, and Day 90 reviews
 - Name **two tempting vanity metrics** an executive might request for your scenario and write one sentence explaining why your group rejected them
+
+---
+
+# Worked Example: Calibrating One Scorecard Row
+
+- Before filling your table’s five slots, compare a vague entry against an actionable cohort-level entry on a **Commercial RFP Proposal** rollout:
+
+```text
+Vague Row (Fails the Tuesday Morning Test):
+  Slot 2 Leading Habit: "Increase AI usage on proposals" | Source: "Survey" | Target: "High"
+
+Calibrated Row (Drives Week-4 Manager Action):
+  Slot 2 Leading Habit: % of proposal leads (cohort n = 24) generating first-pass RFP
+                        compliance matrices from the approved security KB >= 2x / week
+  Data Source:          Workspace AI admin active-surface log + CRM "AI-Matrix" tag
+  Baseline Method:      0% workflow habit at Week 0 (Wave 2 cohort of 12 held as control)
+  Day-90 Target:        >= 70% weekly cohort persistence by Week 8
+```
 
 ---
 

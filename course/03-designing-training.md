@@ -82,6 +82,28 @@ Measuring Transformation Change
 
 ---
 
+<!-- layout: 3-column -->
+# Example: The One-Page Green, Yellow, and Red Data Card
+
+### Green: Safe in Enterprise AI
+- Public docs, published HR policies, job postings, and open-source or vendor documentation
+- Sanitized templates and internal repos inside **approved enterprise tenants** with zero model-training retention
+
+### Yellow: Sanitize and Verify
+- Escalation threads, interview notes, or financial tables **after stripping PII, client names, and account IDs**
+- Mandatory human SME check before any drafted output leaves the internal team workspace
+
+### Red: Never Enter in Prompts
+- Raw customer PII, credentials or API keys, unreleased M and A or pay files, and privileged legal advice
+- Any company task pasted into personal or consumer-tier AI accounts
+
+<!-- below-columns -->
+
+> [!TIP]
+> Co-signing three role-specific examples per column with Security turns a 14-page Legal PDF into a three-minute pre-work check.
+
+---
+
 <!-- layout: navigation -->
 # Chapter 3
 
@@ -146,6 +168,26 @@ Workflow-Trained Habit (Sustains at Week 12):
 
 ---
 
+# Demo: Running a 60-Second Bad-Output Drill
+
+- Try this live as a cohort learner: take 60 seconds to spot **two planted flaws** in the AI draft below before it goes to a client
+
+```text
+Source Facts: Tier-2 client outage lasted 95 minutes. Root cause is STILL UNDER
+INVESTIGATION by Database Ops. Contract SLA promises a 4-hour update; fee credits
+require written VP Finance sign-off.
+
+AI Assistant Draft:
+"We sincerely apologize for today's 95-minute disruption caused by an unindexed
+database migration script. Per your Tier-2 SLA, we are applying a 10% service
+credit to next month's invoice and will send our next status check within 4 hours."
+```
+
+- **Planted Flaw 1 (Hallucinated fact):** states an unverified root cause (`unindexed database migration script`) as confirmed truth
+- **Planted Flaw 2 (Policy breach):** commits an unauthorized `10% service credit` without VP Finance approval
+
+---
+
 <!-- layout: 3-column -->
 # Three Failure Modes of One-and-Done Workshops
 
@@ -189,7 +231,7 @@ Workflow-Trained Habit (Sustains at Week 12):
 
 ### Coding Agents
 - **Tools:** GitHub Copilot, Claude Code, IDE agent workflows
-- **Core skill:** Architectural scoping, plan-before-edit loops, repo instruction files, and test-first delegation
+- **Core skill:** Architectural scoping, plan-before-edit loops, test-first delegation, and repo instruction files (persistent team rules stored in the codebase)
 - **Lab exercise:** Constraining a multi-file refactor on a real repo, running tests, and auditing line-by-line diffs
 
 ---
@@ -305,7 +347,7 @@ Meridian Financial rolled out **Microsoft 365 Copilot, Claude, and GitHub Copilo
 # Group Activity: Designing a Role-Based AI Enablement Blueprint
 
 ### Your Design Brief (15 Minutes)
-Keep your table’s target function from Chapter 2 (or choose one below) and design a **4-week role-based enablement pathway** built to move sustained weekly adoption past 65%:
+Keep your table’s target function or active organization rollout from Chapter 2 (or choose one below) and design a **4-week role-based enablement pathway** built to move sustained weekly adoption past 65%:
 - **Cohort A (Engineering):** 120 product engineers adopting GitHub Copilot and Claude Code on legacy and core services
 - **Cohort B (HR and Talent):** 80 recruiters and HR business partners adopting Claude, Gemini, or Copilot
 - **Cohort C (Customer Operations):** 150 Tier-2 support and onboarding specialists adopting Workspace AI and chat assistants

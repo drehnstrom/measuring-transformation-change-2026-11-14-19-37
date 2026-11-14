@@ -80,11 +80,27 @@ Measuring Transformation Change
 
 ---
 
+# Defensible Renewal Math When Finance Asks for ROI
+
+- When a renewal board asks for dollar ROI, anchor only on **recovered P and L outlays or verified capacity**, discounted conservatively:
+  - **Hard cost avoidance:** reduced overtime, surge contractor hours, outside agency spend, or SLA penalty credits
+  - **Verified capacity value:** incremental cases, proposals, or features delivered at constant headcount - multiplied by a conservative contribution share (typically 40% to 50%)
+
+```text
+Worked Renewal Check (150-Seat Tier-2 Support Cohort - Annualized):
+  Verified Gain:  $290k avoided Q4 contractor surge + $70k lower SLA breach credits = $360k
+  Contribution:   50% conservative share credited to AI workflow + enablement       = $180k
+  Program Cost:   $54k annual licenses + $36k lab, clinic, and SME labor hours      = $90k
+  Net Benefit:    $180k - $90k = +$90k net savings (100% Level-5 ROI)
+```
+
+---
+
 <!-- layout: card-layout -->
 # Upgrading Levels 1 and 2 from Trivia to Transfer Signals
 
 ### 1. Cut Facilitator Charisma Scores
-- Replace 15-question “Did you enjoy the speaker and pace?” smile sheets with two predictive items on job relevance and data-sharing confidence.
+- Replace 15-question speaker smile sheets with two transfer pulses: whether learners have a concrete task ready before Wednesday and whether they know which internal data is safe to include.
 - High entertainment ratings routinely mask workshops where learners have no idea how to apply the tool on Monday.
 
 ### 2. Retire Token-Theory Quizzes
@@ -130,6 +146,16 @@ Cohort C: Customer Operations (Workspace AI and Enterprise Chat)
 ```
 
 - Linking every stage gives you an early diagnostic circuit breaker weeks before quarterly KPIs close
+
+---
+
+# Do Now: Diagnose Two Stalled Rollout Pods
+
+Read both Week-6 snapshots before we unpack the diagnostic framework.
+
+- **Pod Alpha (Recruiting, n = 40):** 95% passed the live interview-rubric lab and seeded-flaw check (L2), yet only 18% used AI on live requisitions this week (L3)
+- **Pod Beta (Engineering, n = 45):** 91% passed the coding-agent lab (L2) and 78% use the agent 4+ days/week (L3), yet median PR cycle time is 15% *slower* than baseline (L4)
+- Write down: Does *either* pod need to retake the training workshop - and what is the first operational barrier you would inspect in each pod?
 
 ---
 
@@ -333,7 +359,7 @@ At the Q3 business review, Tier-2 Support resolution time improved by **28%** an
 # Group Activity: Creating a 90-Day Measurement and Reinforcement Plan
 
 ### Capstone Brief (15 Minutes)
-Bring forward your table’s target cohort from Chapters 2 and 3 and build a launch-ready **90-Day Measurement and Reinforcement Plan** for your executive sponsor:
+Bring forward your table’s target cohort or active organization rollout from Chapters 2 and 3 and build a launch-ready **90-Day Measurement and Reinforcement Plan** for your executive sponsor:
 - **Cohort A (Engineering):** 120 product engineers adopting GitHub Copilot and Claude Code
 - **Cohort B (HR and Talent):** 80 recruiters and HR business partners adopting Claude, Gemini, or Copilot
 - **Cohort C (Customer Operations):** 150 Tier-2 support and onboarding specialists adopting Workspace AI and chat assistants
