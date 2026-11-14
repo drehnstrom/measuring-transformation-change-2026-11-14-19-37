@@ -93,7 +93,7 @@ Measuring Transformation Change
 # Three Tiers of AI Rollout Data
 
 ### 1. Vendor Admin Telemetry
-- Built-in consoles such as Microsoft 365 Copilot Dashboard, GitHub Copilot metrics, and Claude or Gemini admin logs
+- Built-in consoles such as Microsoft 365 Copilot Dashboard, GitHub Copilot metrics, Claude analytics, and Gemini admin reports
 - Tracks active days, feature surfaces used, and cohort retention
 - **Limitation:** sees tool touchpoints, not whether the output solved a real business problem
 

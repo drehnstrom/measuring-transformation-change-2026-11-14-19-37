@@ -121,7 +121,7 @@ Measuring Transformation Change
 # The New AI Enablement Landscape
 
 ### Chat Assistants
-- Tools like Claude, Gemini, and Microsoft 365 Copilot chat
+- Tools like Claude, Gemini, and Microsoft 365 Copilot Chat
 - Used for synthesis, drafting, brainstorming, and policy or document Q and A
 - Risk: employees treat them like a search engine, get generic prose, and stop using them
 

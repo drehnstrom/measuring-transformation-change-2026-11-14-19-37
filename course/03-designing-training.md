@@ -242,7 +242,7 @@ credit to next month's invoice and will send our next status check within 4 hour
 
 | Role Cohort | Primary AI Modality | Anchor Lab Workflows (Pick 2 to 3) | Required Verification Artifact |
 | :--- | :--- | :--- | :--- |
-| **Software Engineers** | Coding agents and IDE chat | Legacy unit-test generation, bounded refactoring, PR prep | Repo instructions (`CLAUDE.md` or `copilot-instructions.md`) and diff checklist |
+| **Software Engineers** | Coding agents and IDE chat | Legacy unit-test generation, bounded refactoring, PR prep | Repo instructions (`CLAUDE.md` or `.github/copilot-instructions.md`) and diff checklist |
 | **HR and Talent** | Enterprise chat and Workspace AI | Structured interview rubrics, job architecture, policy FAQs | Bias, legal compliance, and compensation-band sign-off |
 | **Customer Operations** | Workspace AI and Enterprise chat | Escalation thread synthesis, root-cause replies, KB drafts | Account-tier, SLA, and technical accuracy audit |
 | **People Managers** | Cross-modality review and coaching | Capacity reallocation, output review norms, 1-on-1 coaching | Team AI working agreement and quality guardrail rubric |
